@@ -1,5 +1,5 @@
 /**
- * day-at-a-glance-news — entrypoint for the make.fun news-image-20261117 contest.
+ * day-at-a-glance-news — a one-page world-news digest for Wed 18 Nov 2026.
  *
  * What it does:
  *   Copies the repository's committed poster (entry.png) to the output
