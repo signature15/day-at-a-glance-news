@@ -1,3 +1,4 @@
+import { join } from 'node:path';
 /**
  * day-at-a-glance-news — a one-page world-news digest for Wed 18 Nov 2026.
  *
@@ -23,8 +24,6 @@
  *   already exist.
  */
 import { copyFileSync } from "node:fs";
-import { join } from "node:path";
-
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const source = new URL("./entry.png", import.meta.url);
 const destination = join(outputDir, "entry.png");
